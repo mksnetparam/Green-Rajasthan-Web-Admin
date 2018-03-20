@@ -1,0 +1,245 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2015, 4:30:46 PM
+    Author     : SUN
+*/
+body {
+    background-color: #F9F9F9;
+    padding-top: 50px;
+}
+#list-wrapper {
+    /*background-image: url(../../public/image/Loading.gif);*/
+}
+footer {
+    background-color: #111111;
+    color: #f4f4f4;
+    padding: 10px;
+    height: 40px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1045;
+}
+.table td{
+    max-width: 100px;
+    word-wrap: break-word;
+    text-wrap:normal;
+}
+.error {
+    color: #e50000;
+}
+.default-image{
+    font-size:20px;
+    color:#e50000;
+    background-color: #F9F9F9;
+    padding: 5px;
+    border-radius: 100%;
+    opacity: 0.8;
+    position:absolute;
+    top:5px;
+    left:25px;
+}
+#error_msg {
+    display: none;
+}
+#login-wrapper{
+    margin-top: 20px;
+}
+#logo-wrapper {
+    background-image: url(../image/gb-logo.png);
+    width: 100%;
+    height: 100px;
+    background-size: 100px 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h2#logo-title {
+    color: #5cb85c;
+    margin: 5px;
+}
+#login-title {
+    margin-bottom: 20px;
+}
+#cheque-details,#cheque-details2 {
+    display: none;
+}
+.navbar-inverse{
+    border-radius: 0px;
+}
+#response_msg{
+    display: none;
+}
+.navbar-inverse .navbar-brand {
+    color: #FFF;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFF;
+}
+
+/*Panel style*/
+.panel-green {
+    border-color: #5cb85c !important;
+}
+
+.panel-green > .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green > a {
+    color: #5cb85c;
+}
+
+.panel-green > a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f !important;
+}
+
+.panel-red > .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red > a {
+    color: #d9534f;
+}
+
+.panel-red > a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e !important;
+}
+
+.panel-yellow > .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow > a {
+    color: #f0ad4e;
+}
+
+.panel-yellow > a:hover {
+    color: #df8a13;
+}
+.page-header{
+    margin: 0px auto 10px 0px;
+}
+#table-content{
+    overflow: auto;
+}
+.table{
+    font-size: 12px;
+}
+.textbox {
+    border: solid 1px #CCC;
+    padding: 3px;
+    border-radius: 3px;
+}
+.menu-active{
+    background-color: #333;
+}
+#login-wrapper .panel{
+    border-radius: 0px;
+    border-top: 6px solid #5cb85c;
+}
+#login-wrapper .panel-body{
+    padding: 10px 40px;
+    /*min-height: 250px;*/
+}
+#login-wrapper .panel-footer{
+    border: none;
+    text-align: center;
+    padding: 10px 10px;
+}
+#login-wrapper .panel-footer a{
+    color: #444444;
+    text-decoration: none;
+
+}
+#login-wrapper .form-control{
+    border-radius: 0px;
+    padding: 5px 10px;
+}
+#login-wrapper h3{
+    color: #5cb85c;
+}
+#login-wrapper .btn{
+    border-radius: 0px;
+    font-size: 16px;
+}
+#upload-logo {
+    padding: 40px 10px;
+    border: dashed 1px #007fff;
+    
+}
+
+/*file upload*/
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px !important;
+  direction: ltr;
+  cursor: pointer;
+}
+
+/* Fixes for IE < 8 */
+@media screen\9 {
+  .fileinput-button input {
+    filter: alpha(opacity=0);
+    font-size: 100%;
+    height: 100%;
+  }
+}
+.dropzone {
+    border: dashed 2px #007fff;
+    border-radius: 10px;
+/*    font-size: 36px;*/
+    text-align: center;
+    color: #007fff;
+    padding: 5px;
+    max-height: 200px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.dropzone .dz-message {
+    margin: 10px 0px;
+}
+.dropzone .dz-message .small{
+    font-size: 16px;
+}
+.dropzone button{
+    font-size: 14px;
+    margin-top: 5px;
+    z-index: 1098;
+}
+.dropzone .dz-preview .dz-error-message {
+    top: 50px!important;
+}
+#loading_div{
+    position: absolute;
+    left: 32%;
+    z-index: 1000;
+    top:20%;
+}

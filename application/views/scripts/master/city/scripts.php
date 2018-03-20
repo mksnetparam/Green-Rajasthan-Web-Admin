@@ -1,0 +1,1 @@
+<script src="<?php echo base_url('public/js/master/city/event.js')?>"></script>
